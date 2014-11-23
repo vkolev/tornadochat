@@ -1,6 +1,9 @@
 # tornadochat
 
-Example TornadoChat with WebSockets
+Example TornadoChat with WebSockets. Implements the following features:
+* Usernames
+* Emoji
+* Chat sounds
 
 ## Installation
 
