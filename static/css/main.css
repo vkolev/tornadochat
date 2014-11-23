@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body {
+    background: #3C3C5C;
+}
+body,input {
+    font-family: sans-serif;
+    font-size: 15pt;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    border: 0;
+}
+td {
+    border: 0;
+    padding: 0;
+}
+#body {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding-left: 5px;
+}
+#message {
+    width: 100% !important;
+    box-sizing: border-box;
+    color: #d0d0d0;
+    line-height: 1.7em;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 5px;
+}
+
+.message {
+    text-shadow: 0px 1px 0 #000000;
+}
+
+#input {
+    margin-top: 0.5em;
+}
+#inbox .message {
+    padding-top: 0.25em;
+    padding-left: 10px;
+}
+#nav {
+    float: right;
+    z-index: 99;
+}
+
+#messageform {
+    width: 100% !important;
+}
+
+.chat-rebel {
+    color: #F08E25;
+    font-family: 'Oswald', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.emoji {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+
+span.user {
+    font-weight: bold;
+}
+
+#logout {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+
+.fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg');
+    background-repeat:repeat;
+  }
+  .form-signin {
+    max-width: 280px;
+    padding: 15px;
+    margin: 0 auto;
+      margin-top:50px;
+  }
+  .form-signin .form-signin-heading, .form-signin {
+    margin-bottom: 10px;
+  }
+  .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: #000;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: rgb(0,0,0);
+    border-top:1px solid rgba(0,0,0,0.08);
+  }
+  .form-signin-heading {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  }
