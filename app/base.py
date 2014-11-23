@@ -8,4 +8,5 @@ class MainHandler(tornado.web.RequestHandler):
 	    self.redirect("/login")
 	    return
 	else:
-	    self.render("index.html", messages=ChatSocketHandler.cache)
+	    user = self.get_secure_cookie("username");
+	    self.render("index.html", messages=ChatSocketHandler.cache, user=user)
